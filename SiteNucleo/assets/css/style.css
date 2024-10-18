@@ -1,0 +1,267 @@
+/* importando fontes do google */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Roboto+Mono:wght@100;300;500&display=swap');
+
+/* Reset do CSS */
+
+* {
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+/* Barra de pesquisa/ menu inicial do site */
+
+body {
+    background-color: #eeeeee;
+}
+
+.Barra__pesquisa {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+}
+
+img#logo {
+    height: 30px;
+}
+
+svg#etc {
+    height: 30px;
+    width: 20px;
+}
+
+svg#lupa {
+    height: 30px;
+    width: 15px;
+}
+
+.Barra__pesquisa__esquerda {
+    gap: 25px;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between
+}
+
+nav a {
+    color: #231f20;
+}
+
+.Barra__pesquisa__direita {
+    gap: 20px;
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between
+}
+
+a#Quero__apoiar__botao {
+    width: 120px;
+    background-color:#4b31dd;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    transition: all 0.4s;
+}
+
+#Quero__apoiar__botao:hover {
+    width: 125px;
+}
+
+/* Título do texto em destaque */
+
+.cabecalho__texto {
+    margin-top: 90px;
+    margin-left: 380px;
+    margin-right: 350px;
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    color:#231f20;
+}
+
+/* Subtitulo da matéria */
+
+.cabecalho__subtexto {
+    margin-top: 30px;
+    margin-left: 380px;
+    margin-right: 350px;
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: gray
+}
+
+/* botões "jogo rapido e instagram" */
+
+.cabecalho__botoes {
+    margin-top: 30px;
+    margin-left: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+a#cabecalho__botoes_jogorapido {
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    background-color:#4b31dd;
+    border-radius: 18px;
+    padding: 7px;
+    color: white;
+}
+
+a#cabecalho__botoes_jogorapido:hover {
+    background-color: #f33872;
+    color: black;
+}
+
+img#instapng {
+    margin-top: 6px;
+    background-color: #4b31dd;
+    border-radius: 18px;
+    padding: 8px;
+    height: 30px;
+    width: 40px;
+    filter: invert(0%);
+}
+
+img#instapng:hover{
+    background-color: #f33872;
+}
+
+/* separador/quebra texto */
+
+hr#linha__quebratexto {
+    margin-top: 30px;
+    margin-left: 380px;
+    margin-right: 200px;
+    border-color: whites
+}
+
+/* Caixa de publicação do autor(a) data/hora e tempo de leitura */
+
+.publicado__geral {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    opacity: 90%;
+}
+
+p#por__cor {
+    color: #4b31dd;
+}
+
+.publicado__sofia {
+    margin-left: 383px;
+    display: flex;
+    gap: 10px;
+}
+
+p#sofia__cor {
+    color: #231f20;
+}
+
+p#sofia__cor:hover {
+    text-decoration: underline;
+}
+
+.publicado__datahora {
+    margin-left: 383px;
+    display: flex;
+    gap: 10px;
+    color: #4b31dd;
+}
+
+.publicado__leitura {
+    margin-left: 381px;
+    display: flex;
+    gap: 7px;
+    margin-top: -05px;
+    color: #4b31dd;
+}
+
+svg#calendario {
+    width: 15px;
+    height: 15px;
+    fill: #4b31dd;
+}
+
+img#relogio {
+    width: 20px;
+    height: 20px;
+}
+
+/* botão lateral direita (twitter, facebook, linkedin) */
+
+.compartilhamento__geral  {
+    display: flex;
+    margin-left: 635px;
+    gap: 15px;
+}
+
+svg#tt {
+    height: 20px;
+    width: 20px;
+    fill: #343434;
+}
+
+svg#li {
+    height: 20px;
+    width: 20px;
+    fill: #343434;
+}
+
+svg#fb {
+    height: 20px;
+    width: 20px;
+    fill: #343434;
+}
+
+/* Coluna da matéria + imagem de contribuição */
+.coluna__esquerda__geral {
+    margin-top: 30px;
+    margin-left: 460px;
+    margin-right: 570px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+img#imagempix {
+    margin-top: 40px;
+    border: 1px solid #4b31dd;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.coluna__esquerda__texto1 {
+    margin-top: 20px;
+    display: flex;
+}
+
+strong#agora__cor{
+    color: #4b31dd;
+}
+
+.coluna__esquerda__texto2 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flow-root;
+}
